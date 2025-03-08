@@ -44,11 +44,11 @@ def round_robin(processes, arrival_times, burst_times, time_quantum):
         print(
             f"{processes[i]}\t{arrival_times[i]}\t{burst_times[i]}\t{completion_time[i]}\t{turnaround_time[i]}\t{waiting_time[i]}\t{response_time[i]}")
 
-# Direct input (hardcoded values)
+
 processes = ['P1', 'P2', 'P3', 'P4']
 arrival_times = [0, 1, 2, 4]
 burst_times = [5, 4, 2, 1]
 time_quantum = 2
 
-# Execute Round Robin Scheduling
+
 round_robin(processes, arrival_times, burst_times, time_quantum)
