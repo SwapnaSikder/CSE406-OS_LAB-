@@ -40,7 +40,7 @@ def scan_disk_scheduling(requests, head, direction, disk_size):
 
 
 # Example input
-requests = [98, 183, 37, 122, 14, 124, 65, 67]
+requests = [0, 14, 41, 53, 65, 67, 98, 122, 124, 183, 199]
 head = 53
 direction = "right"
 disk_size = 200
