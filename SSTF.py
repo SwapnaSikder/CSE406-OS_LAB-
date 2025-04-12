@@ -1,6 +1,6 @@
 def custom_scan(requests, head):
     # Custom movement order based on your calculation
-    sequence = [65, 67, 41, 14, 98, 122, 124, 183]
+    sequence = [65, 67, 41, 14, 0, 98, 122, 124, 183, 199]
     total = 0
     pos = head
     for req in sequence:
